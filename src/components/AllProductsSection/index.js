@@ -91,7 +91,6 @@ class AllProductsSection extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = Cookies.get('jwt_token')
-
     const {
       activeOptionId,
       activeCategoryId,
